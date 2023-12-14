@@ -1,5 +1,7 @@
 from flask import Flask
 from werkzeug.urls import url_quote
+from jinja2 import Markup, escape
+
 
 app = Flask(__name__)
 
