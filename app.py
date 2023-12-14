@@ -1,4 +1,6 @@
 from flask import Flask
+from werkzeug.urls import url_quote
+
 app = Flask(__name__)
 
 @app.route("/")
